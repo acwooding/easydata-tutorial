@@ -1,0 +1,11 @@
+default_context:
+  author_name: Amy Wooding
+  conda_path: ~/miniconda3/bin/conda
+  default_branch: main
+  description: Tutorial on how to use easydata, first prepared for the Pydata Global 2021 conference.
+  module_name: src
+  open_source_license: MIT
+  project_name: easydata-tutorial
+  python_version: '3.7'
+  repo_name: easydata-tutorial
+  upstream_location: github.com
