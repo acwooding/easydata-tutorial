@@ -26,6 +26,10 @@ unfinished:
 # COMMANDS                                                                      #
 #
 
+.PHONY: begin
+begin:
+	python make_scripts/begin.py
+
 .PHONY: data
 data: datasets
 

@@ -2,7 +2,21 @@ easydata-tutorial
 ==============================
 _Author: Amy Wooding_
 
-Tutorial on how to use easydata, first prepared for the Pydata Global 2021 conference.
+Welcome to the easydata-tutorial repo! If you're attending the Pydata Global Tutorial, "Love your (data science) Neighbour: Reproducible Data Science the Easydata Way", you're in the right place!
+
+You're about to embark on an Easydata adventure. In preparation, you'll need to get your tools ready. In particular, you will need to have the following basic requirements installed on your machine:
+* Make
+* conda >= 4.8 (via Anaconda or Miniconda)
+* Git
+
+## TODO Add platform specific linked instructions here
+
+When you think you're ready, run:
+```
+python -m am_i_ready.py
+```
+
+
 
 ABOUT EASYDATA
 --------------
