@@ -4,7 +4,7 @@ _Author: Amy Wooding_
 
 Welcome to the easydata-tutorial repo! If you're attending the Pydata Global Tutorial, "Love your (data science) Neighbour: Reproducible Data Science the Easydata Way", you're in the right place!
 
-You're about to embark on an Easydata adventure. In preparation, you'll need to get your tools ready. In particular, you will need to have the following basic requirements installed on your machine:
+You're about to embark on an Easydata Quest for reproducibility. In preparation, you'll need to get your tools ready. In particular, you will need to have the following basic requirements installed on your machine:
 * Make
 * conda >= 4.8 (via Anaconda or Miniconda)
 * Git
@@ -13,7 +13,7 @@ You're about to embark on an Easydata adventure. In preparation, you'll need to 
 
 When you think you're ready, run:
 ```
-python -m am_i_ready.py
+python am_i_ready.py
 ```
 
 
