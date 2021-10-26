@@ -1,0 +1,15 @@
+{
+  "output_datasets": [
+    "penguins-raw"
+  ],
+  "transformations": [
+    {
+      "transformer_kwargs": {
+        "dataset_name": "penguins-raw",
+        "datasource_name": "penguins-raw"
+      },
+      "transformer_module": "src.data.datasets",
+      "transformer_name": "dataset_from_datasource"
+    }
+  ]
+}

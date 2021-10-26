@@ -1,0 +1,16 @@
+{
+  "dataset_name": "penguins-raw",
+  "descr": "\nThe goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to `iris`.\n\nMore information can be found at [https://github.com/allisonhorst/palmerpenguins](https://github.com/allisonhorst/palmerpenguins).\n\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.\n\nThe data consists of measurements of bill (culmen) and flippers and weights of three species of penguins, along with some other metadata about the penguins. In total we have 334 different penguins measured.",
+  "extra": {
+    "penguins-raw.extra": {
+      "penguins_size.csv": [
+        "size:13525"
+      ]
+    }
+  },
+  "hashes": {
+    "data": "sha1:38f65f3b11da4851aaaccc19b1f0cf4d3806f83b",
+    "target": "sha1:38f65f3b11da4851aaaccc19b1f0cf4d3806f83b"
+  },
+  "license": "\nData are available by [CC-0](https://github.com/allisonhorst/palmerpenguins) license in accordance with the Palmer Station LTER Data Policy and the LTER Data Access Policy for Type I data.\n"
+}

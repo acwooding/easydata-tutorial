@@ -1,0 +1,15 @@
+{
+  "output_datasets": [
+    "dataset-challenge"
+  ],
+  "transformations": [
+    {
+      "transformer_kwargs": {
+        "dataset_name": "dataset-challenge",
+        "datasource_name": "dataset-challenge"
+      },
+      "transformer_module": "src.data.datasets",
+      "transformer_name": "dataset_from_datasource"
+    }
+  ]
+}

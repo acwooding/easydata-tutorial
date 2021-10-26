@@ -1,0 +1,10 @@
+{
+  "dataset_name": "dataset-challenge",
+  "descr": "\nThe `.DESCR` is where Easydata keeps a description of the dataset. In this example, you'll see that we have a Dataset object container with metadata, but no data.\n\nFor this dataset, if you do a ds.data, you will return NONE. \n\nA basic description of the data is something that always stays with the data, Easydata uses a descr as one of its metadata fields which can be accessed via\n\n`.DESCR`\n\nfor any Dataset object.\n\nWhen you transform the data, it is nice to append new information including what has been done to the data via the transformation by appending information to the end of the `.DESCR` text.\n\nYou can add any metadata you want to ds.metdata, as it is basically a dict with a fancy wrapping paper that lets you access any key via ALL CAPS.\n",
+  "extra": {},
+  "hashes": {
+    "data": "sha1:38f65f3b11da4851aaaccc19b1f0cf4d3806f83b",
+    "target": "sha1:38f65f3b11da4851aaaccc19b1f0cf4d3806f83b"
+  },
+  "license": "\nCC-BY-4.0 is a common form of dataset license. Here you would put the license for your data, along with any attribution and other information necessary to keep in line with the terms included in the original license.\n\nAll data that you use should have an explicit license kept with it. To keep the license with the data, Easydata uses a license as one of its metadata fields which can be accessed via\n\n`.LICENSE`\n\nfor any Dataset object.\n\nFor more on licenses, see the references at the end of the `04-Data-Challenge` notebook.\n"
+}

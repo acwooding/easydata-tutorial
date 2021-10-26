@@ -1,0 +1,37 @@
+{
+  "load_function_args": [],
+  "load_function_kwargs": {
+    "do_copy": true,
+    "extra_dir": "penguins-raw.extra",
+    "extract_dir": "penguins-raw",
+    "file_glob": "*.csv"
+  },
+  "load_function_module": "src.data.extra",
+  "load_function_name": "process_extra_files",
+  "name": "penguins-raw",
+  "url_list": [
+    {
+      "fetch_action": "url",
+      "file_name": "penguins_size.csv",
+      "hash_type": "sha1",
+      "hash_value": null,
+      "name": null,
+      "unpack_action": "copy",
+      "url": "https://github.com/allisonhorst/palmerpenguins/raw/5b5891f01b52ae26ad8cb9755ec93672f49328a8/data/penguins_size.csv"
+    },
+    {
+      "contents": "\nThe goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to `iris`.\n\nMore information can be found at [https://github.com/allisonhorst/palmerpenguins](https://github.com/allisonhorst/palmerpenguins).\n\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.\n\nThe data consists of measurements of bill (culmen) and flippers and weights of three species of penguins, along with some other metadata about the penguins. In total we have 334 different penguins measured.",
+      "fetch_action": "create",
+      "file_name": "penguins-raw.readme",
+      "name": "DESCR",
+      "unpack_action": "copy"
+    },
+    {
+      "contents": "\nData are available by [CC-0](https://github.com/allisonhorst/palmerpenguins) license in accordance with the Palmer Station LTER Data Policy and the LTER Data Access Policy for Type I data.\n",
+      "fetch_action": "create",
+      "file_name": "penguins-raw.license",
+      "name": "LICENSE",
+      "unpack_action": "copy"
+    }
+  ]
+}
