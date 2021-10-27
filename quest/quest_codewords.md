@@ -4,7 +4,7 @@ To complete today's quest you must collect all 7 codewords, and enter them in th
 To change your Display Name, see instructions here: https://support.zoom.us/hc/en-us/articles/201363203-Customizing-your-Profile
 
 Quest Complete Codewords
-1. Cubicle
+1. Aloha
 2.
 3.
 4.
