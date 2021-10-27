@@ -19,7 +19,11 @@ run_notebook(notebook_name="04-Data-Challenge.ipynb",
 print("""\n
 ***************************
 
-Challenge notebook complete. Head over to XXXXtypeform to complete this Stage of the Quest.
+Challenge notebook complete. Head over to
+
+https://amy105172.typeform.com/quest-data
+
+to complete this Stage of the Quest.
 
 ***************************
 
