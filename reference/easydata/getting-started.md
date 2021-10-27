@@ -16,11 +16,12 @@ Once you've got your local, `origin`, and `upstream` branches configured, you ca
 **WARNING**: If you have conda-forge listed as a channel in your `.condarc` (or any other channels other than defaults), you may experience great difficulty generating reproducible conda environments.
 
 We recommend you remove conda-forge (and all other non-default channels) from your `.condarc` file and [set your channel priority to 'strict'](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-channels.html). Alternate channels can be specified explicitly in your your `environment.yml` by prefixing your package name with `channel-name::`; e.g.
+
 ```
   - wheel                    # install from the default (anaconda) channel
   - pytorch::pytorch         # install this from the `pytorch` channel
   - conda-forge::tokenizers  # install this from conda-forge
-
+```
 
 ### Initial setup
 
