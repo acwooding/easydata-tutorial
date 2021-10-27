@@ -16,7 +16,7 @@ assert len(ds.data) == 334
 run_notebook(notebook_name="05-Testing-Challenge.ipynb",
              notebook_path=paths['notebook_path'],
              output_notebook_name="05-Testing-Challenge-Test-Run.ipynb",
-             output_notebook_path=paths['notebook_path'])
+             output_notebook_path=paths['notebook_path'] / 'test-runs')
 
 print("""\n
 ***************************
