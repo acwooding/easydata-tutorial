@@ -1,3 +1,5 @@
+import subprocess as sp
+
 from src.data import Dataset
 from src.utils import run_notebook
 from src import paths
@@ -19,6 +21,10 @@ run_notebook(notebook_name="05-Testing-Challenge.ipynb",
              notebook_path=paths['notebook_path'],
              output_notebook_name="05-Testing-Challenge-Test-Run.ipynb",
              output_notebook_path=path_test_runs)
+
+# Assess whether unit tests all pass (so clobbered test has been fixed)
+sp.run(["make", "test"]).check_returncode()
+
 
 print("""\n
 ***************************
