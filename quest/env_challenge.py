@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 from src import paths
 
-assert paths['quest_path'] == paths['project_path'] / 'quest'
+#assert paths['quest_path'] == paths['project_path'] / 'quest'
 
 print("""\n
 ******************************************************
