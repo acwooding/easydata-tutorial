@@ -30,10 +30,32 @@ unfinished:
 begin:
 	python quest/begin.py
 
+.PHONY: repo_challenge
+repo_challenge:
+	python quest/repo_challenge.py
+
+.PHONY: data_challenge
+data_challenge:
+	python quest/data_challenge.py
+
+.PHONY: test_challenge
+test_challenge:
+	python quest/test_challenge.py
 
 .PHONY: env_challenge
-begin:
+env_challenge:
 	python quest/env_challenge.py
+
+.PHONY: story_challenge
+## **Quest Task**: When you've completed notebook 06, run this command!
+story_challenge:
+	python quest/story_challenge.py
+
+.PHONY: complete_challenge
+## Complete the full Quest
+complete_challenge: repo_challenge data_challenge test_challenge env_challenge story_challenge
+	python quest/complete_challenge.py
+
 
 .PHONY: data
 data: datasets

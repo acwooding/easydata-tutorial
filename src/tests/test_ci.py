@@ -28,16 +28,16 @@ class TestDatasetsSmall(unittest.TestCase):
         ds = Dataset.load('penguins-clean')
         ds = Dataset.load('penguins-scaled')
 
-    def test_notebook_03(self):
-        run_notebook(notebook_name="03-Repo-Challenge.ipynb",
+    def test_notebook_05(self):
+        run_notebook(notebook_name="05-Test-Challenge.ipynb",
              notebook_path=paths['notebook_path'],
-             output_notebook_name="03-Repo-Challenge-Test-Run.ipynb",
+             output_notebook_name="05-Test-Challenge-Test-Run.ipynb",
              output_notebook_path=notebook_test_path)
 
     def test_notebook_02(self):
-        run_notebook(notebook_name="02-Environment-Challenge.ipynb",
+        run_notebook(notebook_name="03-Environment-Challenge.ipynb",
              notebook_path=paths['notebook_path'],
-             output_notebook_name="02-Environment-Challenge-Test-Run.ipynb",
+             output_notebook_name="03-Environment-Challenge-Test-Run.ipynb",
              output_notebook_path=notebook_test_path)
 
 def test_logging_is_debug_level():

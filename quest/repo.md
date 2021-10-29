@@ -1,6 +1,7 @@
 # Stage 2: Where do I go next?
 
 Have you ever wondered:
+
 * Where did I leave off?
 * What needs to get done next?
 * Where do I find that again?
