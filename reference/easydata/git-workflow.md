@@ -66,7 +66,12 @@ git checkout -b new_branch_name
 ```
 
 
-That's it!. Do you have any suggestions for improvements to this workflow? Drop us a line or file an issue at
+That's it!
+
+**Next stop**: explore the default Easydata project organization at the bottom of the `README.md` for this repo. Ok. So it's not quite default. Your quest instructions didn't come with the default. But let's not get too pedantic here.
+
+
+Do you have any suggestions for improvements to this workflow? Drop us a line or file an issue at
 [cookiecutter-easydata].
 
 [cookiecutter-easydata]: https://github.com/hackalog/cookiecutter-easydata/
