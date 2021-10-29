@@ -34,7 +34,7 @@ EASYDATA REQUIREMENTS
 * conda >= 4.8 (via Anaconda or Miniconda)
 * Git
 
-For more on getting start with Easydata see [Getting Started](reference/easydata/getting-started.md)
+For more on Easydata see [Getting Started](reference/easydata/getting-started.md).
 
 
 Project Organization
@@ -98,6 +98,8 @@ Project Organization
         * Scripts to fetch or generate data.
     * `src/analysis`
         * Scripts to turn datasets into output products.
+    * `src/tests`
+        * Testing scripts that run via `make test`.
 
 --------
 
