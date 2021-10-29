@@ -30,6 +30,11 @@ unfinished:
 begin:
 	python make_scripts/begin.py
 
+
+.PHONY: env_challenge
+begin:
+	python quest/env_challenge.py
+
 .PHONY: data
 data: datasets
 
