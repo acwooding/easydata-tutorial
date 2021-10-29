@@ -12,4 +12,4 @@ Quest Codewords
 6.
 7.
 
-The first time you arrive here as part of your quest, run `python quest/repo_challenge.py` to move on to the next step of the process.
+The first time you arrive here as part of your quest, run `make repo_challenge` to move on to the next step of the process.

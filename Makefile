@@ -28,7 +28,7 @@ unfinished:
 
 .PHONY: begin
 begin:
-	python make_scripts/begin.py
+	python quest/begin.py
 
 
 .PHONY: env_challenge
