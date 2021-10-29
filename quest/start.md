@@ -2,15 +2,17 @@
 
 At the very beginning of everything is, well, the beginning. If I can't find an accessible place to start, no matter how wonderful or worthwhile someone's work is, and no matter how committed I am, I won't make it past the start line. TL;DR.
 
-We have conventions that dictate where to start. Like saying "Hello". In the code world, a README file is your way to say "Hello". In fact, on GitHub, you don't even have to remember this the README.md file displays up front when you open the URL for a repo (same with GitLab or Bitbucket, but for simplicity throughout we'll simply refer to GitHub).
+We have conventions that dictate where to start. Like saying "Hello". In the code world, a [README] (or README.md) file is your way to say "Hello". In fact, on GitHub, you don't even have to remember this the README.md file displays up front when you open the URL for a repo (same with GitLab or Bitbucket, but for simplicity throughout we'll simply refer to GitHub).
 
-The README is your chance to say:
+The [README] is your chance to say something lik:
 
 * Welcome! Please come in.
 * Danger! We're actively undergoing major construction, put on your hard hat and help us out.
 * Do not Enter! No Trespassing. Stay away. Don't bother looking at what's here.
 
-If you haven't taken a look at the `README.md` file for this repo yet, now is the time. Please do so and follow the instructions to make sure your basic setup is complete. That's the place to start before continuing this Stage of the Quest.
+If you haven't taken a look at the [README.md][README] file for this repo yet, **now is the time**. Please do so and follow the instructions to make sure your basic setup is complete. The [README] is the place to start before continuing on any Quest for Reproducibility.
+
+[README]: https://github.com/acwooding/easydata-tutorial/blob/main/README.md
 
 Now, for our first handful of reproducibility issues.
 
@@ -25,7 +27,7 @@ Now, for our first handful of reproducibility issues.
 The Easydata way to indicate the start line is the "simple, sleep-deprived, I don't have to think about it way". Whenever possible, make where and how to start as easy and frictionless as possible. In particular:
 
 ### Default Better Principles
-* **Give starting instructions in a README**: Welcome folks. Include:
+* **Give starting instructions in a README**: Welcome your users. Include:
   * **A basic description**: what can they expect? Is this a finished project, a work in progress (WIP), a place to dump your code that you don't want anyone to look in (like your underwear drawer)?
   * **Instructions for what to install**: Let people know what dependencies are required and how to get started by letting them know what you use: a `requirements.txt` file, and `environment.yml` (which we'll see later). Also, if you only support certain platforms/architectures, it's nice to let folks know before they try to set up and fail that you don't their compute setup.
   * **The next step**: Include what you expect someone to do next once they finish reading the README.
@@ -41,7 +43,9 @@ When you create an Easydata repo, we get you started and make sure that you don'
 
 and generates a `README.md` file and `LICENSE` file from your answers.
 
-Now that you've started, take a look at the auto-generated `LICENSE` for this project to find out what you're allowed to do with the contents of this repo, and to continue on your quest.
+Now that you've started, take a look at the auto-generated [LICENSE] for this project to find out what you're allowed to do with the contents of this repo, and to continue on your quest.
+
+[LICENSE]: https://github.com/acwooding/easydata-tutorial/blob/main/LICENSE
 
 ## Deep Dive References
 Want to explore this theme more? Here are some references:
