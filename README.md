@@ -5,9 +5,10 @@ _Author: Amy Wooding_
 Welcome to the [easydata-tutorial] repo! If you're attending the Pydata Global Tutorial, "[Love your (data science) Neighbour: Reproducible Data Science the Easydata Way][pydata-global-talk]", you're in the right place!
 
 You're about to embark on the **Easydata Quest for Reproducibility**. In preparation, you'll need to get your tools ready. In particular, you will need to have the following basic requirements installed on your machine:
-* GNU Make
+* python >= 3.6
+* GNU make
 * conda >= 4.8 (via Anaconda or Miniconda)
-* Git
+* git
 
 [easydata-tutorial]: https://github.com/acwooding/easydata-tutorial/
 [pydata-global-talk]: https://pydata.org/global2021/schedule/presentation/99/love-your-data-scientist-neighbour-reproducible-data-science-the-easydata-way/
