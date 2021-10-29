@@ -4,7 +4,7 @@ Here's our suggestion for a reliable git workflow that works well in small team 
 ## Git configuration
 
 If you haven't yet done so, please follow the instrucitons
-in our [Git Configuration Guide](git-configuration.md) first.
+in our [Git Configuration Guide](git-configuration.md) first. You should have already completed this step.
 
 ## Git Workflow
 
@@ -68,10 +68,13 @@ git checkout -b new_branch_name
 
 That's it!
 
-**Next stop**: explore the default Easydata project organization at the bottom of the `README.md` for this repo. Ok. So it's not quite default. Your quest instructions didn't come with the default. But let's not get too pedantic here.
+
+### BONUS Challenge
+At the end of each Stage, you will be encouraged to check-in your work. This is a BONUS exercise as it is beyond scope to teach git or debug any git issues. Feel free to come back later and check-in your work to complete the final BONUS challenge. If you're already comfortable with git, go for it and give our git workflow a try.
+
 
 
 Do you have any suggestions for improvements to this workflow? Drop us a line or file an issue at
 [cookiecutter-easydata].
 
-[cookiecutter-easydata]: https://github.com/hackalog/cookiecutter-easydata/
+[cookiecutter-easydata]: https://github.com/hackalog/easydata/
