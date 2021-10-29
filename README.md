@@ -13,8 +13,6 @@ You're about to embark on the **Easydata Quest for Reproducibility**. In prepara
 [easydata-tutorial]: https://github.com/acwooding/easydata-tutorial/
 [pydata-global-talk]: https://pydata.org/global2021/schedule/presentation/99/love-your-data-scientist-neighbour-reproducible-data-science-the-easydata-way/
 
-## TODO Add platform specific linked instructions here
-
 When you think you're ready, run:
 ```
 python quest/am_i_ready.py
