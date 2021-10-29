@@ -76,7 +76,7 @@ Project Organization
     e.g. `1.0-jqp-initial-data-exploration`.
 * `quest`
     * This is where you'll find materials related to the Easydata Quest for Reproducibility.
-    * `quest_codewords.md`: **QUEST TASK** This is the only file you'll need to worry yourself for now. In fact, go on, take a look at it. It will help you along on your quest.
+    * `quest_codewords.md`: **QUEST TASK** This is the only file in here you'll need to worry yourself with. In fact, go on, take a look at it. It will help you along on your quest.
 * `reference`
     * Data dictionaries, documentation, manuals, scripts, papers, or other explanatory materials.
     * `reference/easydata`: Easydata framework and workflow documentation.
