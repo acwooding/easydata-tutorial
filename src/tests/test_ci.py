@@ -9,6 +9,7 @@ from src.utils import run_notebook
 from src import paths
 
 notebook_test_path = paths['notebook_path'] / 'test-runs'
+notebook_test_path.mkdir(parents=True, exist_ok=True)
 
 class TestDatasetsSmall(unittest.TestCase):
     """
