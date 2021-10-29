@@ -34,3 +34,4 @@ dependencies:
   - jupyter_bokeh
   - ipympl
   - python=3.7
+  - make

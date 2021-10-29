@@ -10,15 +10,19 @@ You're about to embark on the **Easydata Quest for Reproducibility**. In prepara
 * conda >= 4.8 (via Anaconda or Miniconda)
 * git
 
-[easydata-tutorial]: https://github.com/acwooding/easydata-tutorial/
-[pydata-global-talk]: https://pydata.org/global2021/schedule/presentation/99/love-your-data-scientist-neighbour-reproducible-data-science-the-easydata-way/
+Many systems have `git` and `make` pre-installed. If not, we recommend using `conda` to install `make`. Windows can be especially gnarly. We have [Windows specific setup instructions](reference/easydata/windows-install.md).
 
-When you think you're ready, run:
+To test if you're ready, run:
 ```
 python quest/am_i_ready.py
 ```
 
 If you get a `SyntaxError`, make sure you are using at least python 3.6!
+
+
+[easydata-tutorial]: https://github.com/acwooding/easydata-tutorial/
+[pydata-global-talk]: https://pydata.org/global2021/schedule/presentation/99/love-your-data-scientist-neighbour-reproducible-data-science-the-easydata-way/
+
 
 ABOUT EASYDATA
 --------------
