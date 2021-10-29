@@ -20,7 +20,7 @@ When you think you're ready, run:
 python quest/am_i_ready.py
 ```
 
-
+If you get a `SyntaxError`, make sure you are using at least python 3.6!
 
 ABOUT EASYDATA
 --------------
