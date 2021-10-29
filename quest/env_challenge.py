@@ -1,8 +1,10 @@
-print("""
-XXX Not complete yet.
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+from src import paths
 
-Test that all of the imports work
-""")
+assert paths['quest_path'] == paths['project_path'] / 'quest'
 
 print("""\n
 ******************************************************
