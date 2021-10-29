@@ -49,7 +49,6 @@ env_challenge:
 	python quest/env_challenge.py
 
 .PHONY: story_challenge
-## **Quest Task**: When you've completed notebook 06, run this command!
 story_challenge:
 	python quest/story_challenge.py
 
