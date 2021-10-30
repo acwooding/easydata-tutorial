@@ -5,19 +5,26 @@ _Author: Amy Wooding_
 Welcome to the [easydata-tutorial] repo! If you're attending the Pydata Global Tutorial, "[Love your (data science) Neighbour: Reproducible Data Science the Easydata Way][pydata-global-talk]", you're in the right place!
 
 You're about to embark on the **Easydata Quest for Reproducibility**. In preparation, you'll need to get your tools ready. In particular, you will need to have the following basic requirements installed on your machine:
-* python >= 3.6
-* GNU make
 * conda >= 4.8 (via Anaconda or Miniconda)
+
+In addition to conda, you will also need
+* GNU make
 * git
 
-Many systems have `git` and `make` pre-installed. If not, we recommend using `conda` to install `make`. Windows can be especially gnarly. We have [Windows specific setup instructions](reference/easydata/windows-install.md).
+These can be installed using conda if they are not already on your system; e.g. via 
+```
+conda create -n easydata python=3 make git
+conda activate easydata
+```
+
+Windows installations can be especially gnarly. In that case, we have [Windows specific setup instructions](reference/easydata/windows-install.md).
 
 To test if you're ready, run:
 ```
 python quest/am_i_ready.py
 ```
 
-If you get a `SyntaxError`, make sure you are using at least python 3.6!
+(If you get a `SyntaxError`, make sure you are using at least python 3.6!)
 
 
 [easydata-tutorial]: https://github.com/acwooding/easydata-tutorial/
@@ -33,12 +40,6 @@ your data science workflow reproducible. The Easydata framework includes:
 * built-in dataset management (including tracking of metadata such as LICENSES and READMEs),
 * a prescribed project directory structure,
 * workflows and conventions for contributing notebooks and other code.
-
-EASYDATA REQUIREMENTS
-------------
-* Make
-* conda >= 4.8 (via Anaconda or Miniconda)
-* Git
 
 For more on Easydata see [Getting Started](reference/easydata/getting-started.md).
 
