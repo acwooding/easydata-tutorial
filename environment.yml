@@ -28,7 +28,6 @@ dependencies:
   - requests
   - pathlib
   - fsspec
-  - seaborn
   - conda-forge::rich
   - jupyterlab
   - jupyter_bokeh
