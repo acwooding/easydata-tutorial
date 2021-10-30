@@ -52,9 +52,9 @@ env_challenge:
 story_challenge:
 	python quest/story_challenge.py
 
-.PHONY: complete_challenge
+.PHONY: complete_quest
 ## Complete the full Quest
-complete_challenge: repo_challenge data_challenge test_challenge env_challenge story_challenge
+complete_quest: repo_challenge data_challenge test_challenge env_challenge story_challenge
 	python quest/complete_challenge.py
 
 .PHONY: data
