@@ -19,7 +19,16 @@ conda activate easydata
 
 Windows installations can be especially gnarly. In that case, we have [Windows specific setup instructions](reference/easydata/windows-install.md).
 
-To test if you're ready, run:
+"GIT"ting Started
+-----------------
+We are going to use git to clone this repo:
+
+```
+git clone https://github.com/acwooding/easydata-tutorial
+cd easydata-tutorial
+```
+
+To test if you're ready, make sure you have the dependencies installed (e.g. activate the `easydata` environment you created above) and run:
 ```
 python quest/am_i_ready.py
 ```
