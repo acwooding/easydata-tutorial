@@ -140,4 +140,4 @@ debug:
 .DEFAULT_GOAL := show-help
 .PHONY: show-help
 show-help:
-	@python scripts/help.py $(PROJECT_NAME) $(DEBUG_FILE)
+	@python scripts/help.py $(PROJECT_NAME) $(DEBUG_FILE) $(EASYDATA_LOCKFILE)

@@ -3,7 +3,7 @@ print("""
 ************************************************************************
 ***                                                                  ***
 ***                                                                  ***
-***                Welcome to the Easydata Quest                     ***
+***      Welcome to the Easydata Quest for Reproducibility           ***
 ***                                                                  ***
 ***      Today you will be on a journey to complete                  ***
 ***      a quest with 7 stages. At the end of each stage you         ***

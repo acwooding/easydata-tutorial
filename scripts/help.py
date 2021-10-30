@@ -7,36 +7,31 @@ try:
     CYAN = "[cyan]"
     nCYAN = "[/cyan]"
 except ImportError:
-    if sys.platform.lower() == "win32":
-        B = ""
-        nB = ""
-        CYAN = ""
-        nCYAN = ""
-    else:
-        HEY = "\x1e["
-        B = f"{HEY}1n"
-        nB = f"{HEY}0n"
-        CYAN = f"{HEY}36n"
-        nCYAN = f"{HEY}0n"
-    
+    B = ""
+    nB = ""
+    CYAN = ""
+    nCYAN = ""
+
 
 def deprint(s):
     print(s, end="")
-    
-    
-assert len(sys.argv) == 3
-project_name, debug_file = sys.argv[1:3]
+
+
+assert len(sys.argv) == 4
+project_name, debug_file, lockfile = sys.argv[1:4]
 
 deprint(f"""\
 To get started:
   >>> {B}make create_environment{nB}
   >>> {B}conda activate {project_name}{nB}
+  >>> {B}make update_environment{nB}
 
 {B}Project variables:{nB}
 
 """)
 print(f"PROJECT_NAME = {sys.argv[1]}")
 print(f"DEBUG_FILE   = {sys.argv[2]}")
+print(f"LOCKFILE     = {sys.argv[3]}")
 
 deprint(f"""\
 
