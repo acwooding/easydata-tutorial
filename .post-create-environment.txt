@@ -1,10 +1,4 @@
 
-Now would be a good time to initialize a git repo; i.e.
->>> git init
->>> git add .
->>> git commit -m 'initial import'
->>> git branch easydata    # tag for future easydata upgrades
-
 NOTE: By default, raw data is installed and unpacked in the
 `easydata-tutorial/data` directory. If you are working with big data (or
 have a small disk partition), it is HIGHLY recommended that you point
